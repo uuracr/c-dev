@@ -1,0 +1,18 @@
+int k1, k2;
+int m2;
+double donum;
+
+Console.Write("1. uzunluğu giriniz: ");
+k1 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("2. kenar uzunluğunu giriniz: ");
+k2 = Convert.ToInt32(Console.ReadLine());
+
+m2 = k1 * k2;
+donum = m2 / 1000.0;
+
+Console.WriteLine("metrekare=" + m2);
+Console.WriteLine("donum=" + donum);
+console.writlene("ugur")
+
+Console.ReadLine();
